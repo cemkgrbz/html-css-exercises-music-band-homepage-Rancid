@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  @font-face {
+    font-family: 'Bebas Neue';
+    src: url(/fonts/BebasNeue-Regular.ttf);
+    
+  }
+
+  @font-face {
+    font-family: 'Road Rage';
+    src: url(/fonts/RoadRage-Regular.ttf);
+  }
+
+header {
+    width: 100%;
+    height: 120px;
+    background: #a80003;
+    /* font-family: 'Bebas Neue'; */
+    font-family: 'Road Rage';
+    font-size: 16pt;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+  }
+
+header img {
+    width: 20rem;
+    margin: 30px;
+    height: 90px;
+
+  }
+  
+  ul {
+    align-items: center;
+    list-style-type: none;
+  }
+
+  ul a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  header section {
+    justify-content: space-between;
+    align-items: flex-end;}
+
+
+section:nth-child(2) article {
+      background-image: url(/img/rancid-cover.jpg);
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+      text-align: right;
+      padding: 20px 50px;
+      flex-direction: column; 
+      justify-content: space-between;
+      align-items: flex-end;
+      font-size: 40pt;
+      font-family: 'Road Rage';
+      color: #d3a200;
+      border-top: 2px solid rgb(0, 0, 0);
+      text-shadow: 3px 3px rgb(0, 0, 0);
+    }
+   
+   section:nth-child(2) img{ 
+         width: 20%;
+        text-align: right;
+          }
+   
+
+.lastAlbum:hover {
+  opacity: 0.9;
+  padding: 15px;
+}
+
+.albums {background-image: url(/img/back-pattern1.jpg);
+  background-size: contain;
+  background-repeat: repeat-x;
+text-align: center;
+color: #d3a200;
+font-size: larger;
+padding: 10px;
+font-family: 'Road Rage';
+font-size: 20pt;
+text-shadow: 2px 2px rgb(0, 0, 0);
+
+}
+
+section:nth-child(4) img:hover {
+  opacity: 0.7;
+}
+
+section:nth-child(4) a{
+  display: block;
+  /* display: flex; */
+  width:100%;
+}
+
+section:nth-child(4) img{
+  width:100%;
+}
+
+.tour { display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(/img/rancid-tour.jpeg);
+  background-size: cover ;
+  background-repeat: no-repeat;
+  color: #d3a200;
+  height: 450px;
+  padding: 20px;
+  font-size: 14pt;
+  font-family: 'Bebas Neue';
+}
+
+.tour li {
+  padding:10px ;
+}
+
+iframe {display: block;}
+
+.store {
+  display: flex;
+  flex-direction: row;
+}
+
+.store img {
+  width: 60%;
+}
+
+.store-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: 20px;
+  justify-content: center;
+  font-family: 'Road Rage';
+  font-size: 15pt;
+}
+
+.store-column h1 {
+  color: #a80003;
+  font-size: 50pt;
+  text-shadow: 4px 4px 8px rgb(255, 255, 255);
+}
+
+.store-column a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.store-column:nth-child(2) {
+  background-image: url(/img/newrancidmerch.png);
+  background-size: contain ;
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 30pt;
+  text-shadow: 2px 2px 10px rgb(255, 255, 255);
+}
+
+.store-column:nth-child(1) img:hover {
+  padding: 25px;
+}
+
+
+.subscribe {display: flex;
+align-items: center;
+justify-content:space-between;
+flex-direction: column;
+background-image: url(/img/back-pattern1.jpg);
+background: black;
+height: 130px;
+color: #a80003;
+text-shadow: 1px 1px #d3a200;
+;
+padding: 25px;
+font-family: 'Bebas Neue';
+font-size: larger;
+}
+
+input {
+  padding:5px 15px; 
+  background:rgb(207, 207, 207); 
+  border: none;
+  border-radius: 15px; 
+  margin-top: 10px;
+  font-family: 'Bebas Neue';
+}
+
+footer { display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    background: #a80003;
+    /* background-image: url(/img/back-pattern1.jpg); */
+    height: 150px;
+    padding: 20px;
+}
